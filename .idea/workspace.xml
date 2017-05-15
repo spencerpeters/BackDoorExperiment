@@ -16,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BackDoorExperiment$jsonTest.coverage" NAME="jsonTest Coverage Results" MODIFIED="1494749440762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BackDoorExperiment$GraphsTest.coverage" NAME="GraphsTest Coverage Results" MODIFIED="1493759241841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/BackDoorExperiment$enumerateAdjustments.coverage" NAME="enumerateAdjustments Coverage Results" MODIFIED="1494808676426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BackDoorExperiment$enumerateAdjustments.coverage" NAME="enumerateAdjustments Coverage Results" MODIFIED="1494810973850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BackDoorExperiment$connectToRScriptTest.coverage" NAME="connectToRScriptTest Coverage Results" MODIFIED="1494805649068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BackDoorExperiment$RTest.coverage" NAME="RTest Coverage Results" MODIFIED="1494527269401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enumerateAdjustments.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="enumerateAdjustments.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/enumerateAdjustments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="53" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.41923076">
+              <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdjustmentEnumerator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdjustmentEnumerator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AdjustmentEnumerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49360147">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="53" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
@@ -143,10 +143,10 @@
         <option value="$PROJECT_DIR$/RTest.py" />
         <option value="$PROJECT_DIR$/src/jsonTest.py" />
         <option value="$PROJECT_DIR$/src/connectToRScriptTest.py" />
-        <option value="$PROJECT_DIR$/src/enumerateAdjustments.py" />
         <option value="$PROJECT_DIR$/src/enumerateAdjustments2.py" />
         <option value="$PROJECT_DIR$/src/AdjustmentResults.py" />
         <option value="$PROJECT_DIR$/src/AdjustmentEnumerator.py" />
+        <option value="$PROJECT_DIR$/src/enumerateAdjustments.py" />
       </list>
     </option>
   </component>
@@ -642,26 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/enumerateAdjustments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="53" selection-end-column="88" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enumerateAdjustments2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdjustmentResults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -698,10 +678,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdjustmentEnumerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49360147">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="53" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enumerateAdjustments2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enumerateAdjustments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41923076">
+          <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

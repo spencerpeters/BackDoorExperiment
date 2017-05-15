@@ -3,6 +3,7 @@ import sys
 import subprocess
 import json
 import numpy as np
+import math
 
 def main():
     if (len(sys.argv) != 7):
@@ -50,7 +51,7 @@ def main():
     print("PARAMETERS: Nodes Per Graph " + str(numNodes), "Connection Parameter " + str(connectionParameter))
     print("Total number of possible cuboids (power set size): " + str(powerSetSize))
     averages = [np.mean(graphSizes) for graphSizes in sizes]
-    print("Average number of useful cuboids by graph:" + str(averages))
+    print("Average number of useful cuboids by graph, to nearest integer:" + str([round(avg) for avg in averages]))
     print("Average number of useful cuboids over all graphs: " + str(np.mean(averages)))
     outputFile.close()
 
