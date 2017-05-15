@@ -7,12 +7,12 @@ import json
 
 def main():
     filepath = "/Users/Spencer/R-Projects/AdjustmentEnumeration/RtoPyTest.json"
-    subprocess.call(["Rscript",
-                     "/Users/Spencer/R-Projects/AdjustmentEnumeration/ScriptServingPython.R",
-                     "1",
-                     "10",
-                     "0.3",
-                     filepath])
+    # subprocess.call(["Rscript",
+    #                  "/Users/Spencer/R-Projects/AdjustmentEnumeration/ScriptServingPython.R",
+    #                  "1",
+    #                  "10",
+    #                  "0.3",
+    #                  filepath])
     result = json.load(open(filepath))
     for sink in result[0]:
         sink = reformatR(sink)
