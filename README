@@ -1,0 +1,30 @@
+This repository contains code for computing d-separation and adjustment sets in directed graphs.
+
+
+
+
+
+
+EnumerateAdjustments README
+
+Setup:
+Download ScriptServingPython.R
+Use its filepath as the rScriptFilepath argument to AdjustmentEnumerator.
+
+Usage:
+python enumerateAdjustments.py rScriptFilepath JSONFilepath #graphs #nodes probabilityOfEdge outFilepath
+
+Arguments:
+rScriptFile: full filepath to ScriptServingPython.R
+JSONFilepath: arbitrary filepath, used as a location for JSON data computed by the R script
+#graphs: number of graphs to generate
+#nodes: number of nodes per graph
+ProbabilityOfEdge: the probability that any given directed edge exists in the DAG.
+outFilepath: location where detailed program output will be stored
+
+Result:
+list of cuboids for each graph along with treatments at outFilepath
+summary information to stdout
+
+
+
