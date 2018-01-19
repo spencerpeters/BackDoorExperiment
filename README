@@ -1,30 +1,18 @@
-This repository contains code for computing d-separation and adjustment sets in directed graphs.
+This repository contains code for computing d-separation and adjustment sets in directed graphs. Current code is in the src directory.
+
+DSeparation implements Algorithm 2 for finding d-separating sets in directed graphs in
+Geiger, D., Verma, T., & Pearl, J. (1990). Identifying independence in Bayesian networks. Networks, 20(5), 507-534.
+
+TakataDSeparator and TakataSeparator make use of Takata's algorithm for separation in undirected graphs, 
+along with the moral graph construction, to compute d-separation in directed graphs.
+Takata, K. (2010). Space-optimal, backtracking algorithms to list the minimal vertex separators of a graph. 
+Discrete Applied Mathematics, 158(15), 1660-1667. Chicago.
+
+BackDoor uses the DSeparator class of DSeparation to compute back door sets, which are sets of variables that, when adjusted for,
+yield the causal effect of a target set on an effect variable.
 
 
 
-
-
-
-EnumerateAdjustments README
-
-Setup:
-Download ScriptServingPython.R
-Use its filepath as the rScriptFilepath argument to AdjustmentEnumerator.
-
-Usage:
-python enumerateAdjustments.py rScriptFilepath JSONFilepath #graphs #nodes probabilityOfEdge outFilepath
-
-Arguments:
-rScriptFile: full filepath to ScriptServingPython.R
-JSONFilepath: arbitrary filepath, used as a location for JSON data computed by the R script
-#graphs: number of graphs to generate
-#nodes: number of nodes per graph
-ProbabilityOfEdge: the probability that any given directed edge exists in the DAG.
-outFilepath: location where detailed program output will be stored
-
-Result:
-list of cuboids for each graph along with treatments at outFilepath
-summary information to stdout
 
 
 
